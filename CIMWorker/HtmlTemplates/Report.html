@@ -1,0 +1,119 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>InovoCIM</title>
+</head>
+<body style="margin:0px;padding:0px;font-family:sans-serif">
+    <table border="0" width="100%" height="100%" cellpadding="0" cellspacing="0">
+        <tr>
+            <td align="center" valign="top">
+                <table border="0" width="750" cellpadding="0" cellspacing="0">
+                    <tr><td><br /></td></tr>
+                    <tr><td align="center" style="background-color:blue;padding:20px;color:white;border-radius:5px;"><strong>InovoCIM - JD Group</strong></td></tr>
+                    <tr><td><br /><div>Good day,</div><br /><div>Please see report generated:</div><br /><hr /></td></tr>
+                    <tr>
+                        <td>
+                            <br /><div>Report generated at #DATE#</div><br /><br />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <table border="1" width="100%" height="100%" cellpadding="2" cellspacing="0">
+                                <tr>
+                                    <td><strong>SERVICENAME</strong></td>
+                                    <td><strong>SERVICEID</strong></td>
+                                    <td><strong>LEADS</strong></td>
+                                    <td><strong>INITIAL</strong></td>
+                                    <td><strong>SCHEDULE</strong></td>
+                                    <td><strong>INVALID</strong></td>
+                                    <td><strong>COMPLETE</strong></td>
+                                </tr>
+                                #PRESENCESUMMARY#
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <br /><br />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <table border="1" width="100%" height="100%" cellpadding="2" cellspacing="0">
+                                <tr>
+                                    <td><strong>SERVICENAME</strong></td>
+                                    <td><strong>SERVICEID</strong></td>
+                                    <td><strong>ATTEMPTS</strong></td>
+                                    <td><strong>NONUSEFUL</strong></td>
+                                    <td><strong>NEGATIVE</strong></td>
+                                    <td><strong>POSITIVE</strong></td>
+                                </tr>
+                                #PRESENCELOGS#
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <br /><br />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <table border="1" width="100%" height="100%" cellpadding="2" cellspacing="0">
+                                <tr>
+                                    <td><strong>COUNTRY</strong></td>
+                                    <td><strong>SMS SENT</strong></td>
+                                </tr>
+                                #SMSLOGS#
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <br /><br />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <table border="1" width="100%" height="100%" cellpadding="2" cellspacing="0">
+                                <tr>
+                                    <td><strong>DAY</strong></td>
+                                    <td><strong>MAILS SENT</strong></td>
+                                </tr>
+                                #MAILLOGS#
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <br /><br />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <table border="1" width="100%" height="100%" cellpadding="2" cellspacing="0">
+                                <tr>
+                                    <td><strong>FILE NAME</strong></td>
+                                    <td><strong>HAS EXPORTED</strong></td>
+                                    <td><strong>EXPORTED AT</strong></td>
+                                </tr>
+                                #TRIADLOGS#
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <br /><hr />
+                        </td>
+                    </tr>
+                    <tr><td><br />Kind regards,<br /><br />InovoCIM<br /><br /></td></tr>
+                    <tr><td><img src="cid:CompanyLogo" alt="Company Logo" /><br /><br /><small>Email generated: #DATE#</small></td></tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
